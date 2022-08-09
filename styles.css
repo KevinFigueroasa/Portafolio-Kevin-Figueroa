@@ -258,3 +258,34 @@ progress::-webkit-progress-value{
   border-radius: .8rem;
   background-color: var(--celeste);
 }
+
+.portafolio-images {
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-left: 5%;
+    overflow-x: auto;
+}
+
+.card-contact {
+  display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    gap: 5rem;
+    color: #03051c;
+}
+
+.icon-container {
+    background-image: url(../vector/Ellipse\ 14.svg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: var(--white);
+    height: 25rem;
+    width: 25rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; 
+}
