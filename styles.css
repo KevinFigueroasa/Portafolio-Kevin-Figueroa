@@ -52,8 +52,7 @@ html {
 
   h3 {
     font-size: 2.6rem;
-    font-weight: 100;
-    
+    font-weight: 700;
   }
 
   span {
@@ -129,6 +128,11 @@ html {
   margin-top: 9rem;
   bottom: 1rem;
   gap: 1.8rem;
+}
+
+.experience-years {
+  font-size: 2.4rem;
+  font-weight: 700;
 }
 
 .social-container {
@@ -218,6 +222,10 @@ html {
   font-size: 1.4rem;
   text-decoration: none;
   border: 0;
+}
+
+.habilities-margin {
+  margin: 9rem 0 6rem;
 }
 
 #skills{
