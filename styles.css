@@ -275,7 +275,7 @@ progress::-webkit-progress-value{
     color: #03051c;
 }
 
-.icon-container {
+.icon-containers {
     background-image: url(../vector/Ellipse\ 14.svg);
     background-position-x: center;
     background-repeat: no-repeat;
