@@ -57,10 +57,10 @@ html {
   }
 
   span {
-    width: 15%;
+    width: 18%;
     padding-bottom: 1rem;
     font-size: 3.9rem;
-    border-bottom: 0.3rem solid var(--white);
+    border-bottom: 0.6rem solid var(--white);
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
   }
@@ -77,8 +77,6 @@ html {
     display: flex;
     color: var(--white);
   }
-
-  
 
   .center {
     text-align: center;
@@ -105,6 +103,12 @@ html {
     height: 68.5rem;
     margin-bottom: 27rem;
     position: relative;
+}
+
+.hero-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .hero-image::before{
@@ -159,16 +163,14 @@ html {
 }
 
 .jobs-container{
+  width: 100%;
   background-color: #242635;
-  position: relative;
   padding: 4% 12%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0 3rem;
+  margin-top: 21rem;
   border-radius: 1rem;
-  gap: 6%;
-  top: 24rem;
 }
 
 .jobs-back {
@@ -236,8 +238,10 @@ html {
 }
 
 #skills{
-  padding: 0 28rem 7rem 28rem;
+  width: 100%;
+  padding: 0 15%;
 }
+
 #skills label{
   display: flex;
   justify-content: space-between;
@@ -262,7 +266,7 @@ progress::-webkit-progress-value{
 }
 
 .portafolio-images {
-  display: grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 2rem;
     margin-left: 5%;
@@ -310,4 +314,125 @@ progress::-webkit-progress-value{
 
 footer {
   margin: 6rem;
+}
+
+@media (max-width: 43rem) {
+  :root{
+    --title: 3.8rem;
+    --subtitle: 2.8rem;
+  }
+
+  body {
+    width: 100%;
+  }
+
+  #skills{
+    width: 100%;
+  }
+
+
+
+  h1 {
+    margin-top: 6rem;
+    font-size: 4.2rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  .soy {
+    width: 50%;
+    margin: -6rem;
+  }
+
+  .main-nav{
+    display: none;
+  }
+
+  .experience-years {
+    margin: 0;
+    font-size: 1.8rem;
+  }
+
+  .three {
+    font-size: 1.8rem;
+  }
+
+  .hero-container{
+    align-items: center;
+    margin-top: 40rem;
+  }
+
+  .hero-image {
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    margin-top: -12rem;
+    height: 28.5rem;
+  }
+
+  .about-me-title {
+    margin: 28rem 0 0 0;
+  }
+
+  .about-me {
+    margin: 3rem 0 0;
+    line-height: 3rem;
+  }
+
+  .jobs-container{
+    width: 90%;
+    display: flex;
+    margin-top: -1rem;
+    margin: 0 auto;
+    gap: 1rem;
+  }
+
+  .social-container{
+    width: 100%;
+    justify-content: center;
+    margin: 3rem auto;
+  }
+
+  .contact-container{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .services-cards{
+    width: 100%;
+    display: grid;
+    justify-content: left;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-left: 5%;
+    overflow-x: auto;
+  }
+
+  .services-cards::-webkit-scrollbar-thumb{
+    background-color: var(--celeste);
+    border-radius: 1rem;
+  }
+
+  .services-cards::-webkit-scrollbar{
+    height: 0.6rem;
+    background-color: var(--primary);
+  }
+
+  .portafolio-images{
+    width: 100%;
+  }
+
+  .portafolio-images::-webkit-scrollbar-thumb{
+    background-color: var(--celeste);
+    border-radius: 1rem;
+  }
+
+  .portafolio-images::-webkit-scrollbar{
+    height: 0.6rem;
+    background-color: var(--primary);
+  }
 }
