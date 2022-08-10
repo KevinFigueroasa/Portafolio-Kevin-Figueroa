@@ -316,7 +316,7 @@ footer {
   margin: 6rem;
 }
 
-@media (max-width: 43rem) {
+@media (max-width: 72rem) {
   :root{
     --title: 3.8rem;
     --subtitle: 2.8rem;
