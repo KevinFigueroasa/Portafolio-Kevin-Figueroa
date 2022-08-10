@@ -53,6 +53,7 @@ html {
   h3 {
     font-size: 2.6rem;
     font-weight: 700;
+    
   }
 
   span {
@@ -249,6 +250,7 @@ html {
   margin: 1rem 0 2.4rem 0;
   border-radius: .8rem;
 }
+
 progress::-webkit-progress-bar{
   background: #D1CECA;
   border-radius: .8rem;
@@ -267,25 +269,45 @@ progress::-webkit-progress-value{
     overflow-x: auto;
 }
 
-.card-contact {
-  display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-    gap: 5rem;
-    color: #03051c;
+#contact {
+  margin: 12rem 0;
 }
 
-.icon-containers {
-    background-image: url(../vector/Ellipse\ 14.svg);
-    background-position-x: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-color: var(--white);
-    height: 25rem;
-    width: 25rem;
-    border-radius: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center; 
+.icon-contact{
+  width: 40%;
+
+}
+
+.contact-container{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.type-contact{
+  background-image: url(../vector/Ellipse\ 14.svg);
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: var(--white);
+  height: 25rem;
+  width: 25rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.text-dark-blue {
+  color: var(--backg);
+  margin: 0;
+}
+
+.text-gris {
+  color: #a9a9a9;
+}
+
+footer {
+  margin: 6rem;
 }
